@@ -10,35 +10,42 @@ function App() {
     {
       nombre: "DO",
       link: require("./notas/do.wav"),
-      tieneSostenido: true
+      tieneSostenido: true,
+      color: "red"
     },
     {
       nombre: "RE",
       link: require("./notas/re.wav"),
-      tieneSostenido: true
+      tieneSostenido: true,
+      color: "orange"
     },
     {
       nombre: "MI",
-      link: require("./notas/mi.wav")
+      link: require("./notas/mi.wav"),
+      color: "yellow"
     },
     {
       nombre: "FA",
       link: require("./notas/fa.wav"),
-      tieneSostenido: true
+      tieneSostenido: true,
+      color: "green"
     },
     {
       nombre: "SOL",
       link: require("./notas/sol.wav"),
-      tieneSostenido: true
+      tieneSostenido: true,
+      color: "lightblue"
     },
     {
       nombre: "LA",
       link: require("./notas/la.wav"),
-      tieneSostenido: true
+      tieneSostenido: true,
+      color: "blue"
     },
     {
       nombre: "SI",
-      link: require("./notas/si.wav")
+      link: require("./notas/si.wav"),
+      color: "violet"
     }
   ];
 
@@ -55,8 +62,7 @@ function App() {
   return (
     <div className="App">
       <div className="titulo">
-        <h1>Piano</h1>
-        <h2>Hecho con amor por Nicky</h2>
+        <h1>Pianito multicolor</h1>
       </div>
       <div className="contenedor">
         {
@@ -64,15 +70,17 @@ function App() {
             return(
               <div 
                 className={`nota ${estaSonando === nota.nombre && 'estaSonando'}`} 
-                onClick={() => handleClick(nota)}>
+                onClick={() => handleClick(nota)} 
+                style={ estaSonando === nota.nombre ? { backgroundColor:`${nota.color}`} : {}}>
                   { nota.tieneSostenido && <div className="negra"></div> }
-
               </div>
             )
           })
         }
       </div>
-
+      <div className="footer">
+        <h2>Hecho con  por Nicky Zimerman</h2>
+      </div>
     </div>
   );
 }
