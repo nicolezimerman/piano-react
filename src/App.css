@@ -1,6 +1,13 @@
 body{
   background-color: black;
 }
+h1{
+  background-color: red;
+  background-image: linear-gradient(90deg, rgba(255,88,48,1) 0%, rgba(255,156,0,1) 16%, rgba(255,240,42,1) 32%, rgba(211,235,79,1) 50%, rgba(0,212,255,1) 66%, rgba(0,67,255,1) 82%, rgba(116,12,231,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+
+}
 
 .contenedor{
   display: flex;
