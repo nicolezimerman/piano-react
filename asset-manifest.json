@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/piano-react/static/css/main.66bebcd4.chunk.css",
-    "main.js": "/piano-react/static/js/main.ea198ff0.chunk.js",
-    "main.js.map": "/piano-react/static/js/main.ea198ff0.chunk.js.map",
+    "main.css": "/piano-react/static/css/main.60341018.chunk.css",
+    "main.js": "/piano-react/static/js/main.36f310e8.chunk.js",
+    "main.js.map": "/piano-react/static/js/main.36f310e8.chunk.js.map",
     "runtime-main.js": "/piano-react/static/js/runtime-main.085f8a8b.js",
     "runtime-main.js.map": "/piano-react/static/js/runtime-main.085f8a8b.js.map",
-    "static/js/2.be42e844.chunk.js": "/piano-react/static/js/2.be42e844.chunk.js",
-    "static/js/2.be42e844.chunk.js.map": "/piano-react/static/js/2.be42e844.chunk.js.map",
+    "static/js/2.9315facd.chunk.js": "/piano-react/static/js/2.9315facd.chunk.js",
+    "static/js/2.9315facd.chunk.js.map": "/piano-react/static/js/2.9315facd.chunk.js.map",
     "index.html": "/piano-react/index.html",
-    "precache-manifest.635e82a54608749f07b0c41c0621a9e5.js": "/piano-react/precache-manifest.635e82a54608749f07b0c41c0621a9e5.js",
+    "precache-manifest.57da77e5b684a43b3554fcbc0d524adf.js": "/piano-react/precache-manifest.57da77e5b684a43b3554fcbc0d524adf.js",
     "service-worker.js": "/piano-react/service-worker.js",
-    "static/css/main.66bebcd4.chunk.css.map": "/piano-react/static/css/main.66bebcd4.chunk.css.map",
-    "static/js/2.be42e844.chunk.js.LICENSE.txt": "/piano-react/static/js/2.be42e844.chunk.js.LICENSE.txt",
+    "static/css/main.60341018.chunk.css.map": "/piano-react/static/css/main.60341018.chunk.css.map",
+    "static/js/2.9315facd.chunk.js.LICENSE.txt": "/piano-react/static/js/2.9315facd.chunk.js.LICENSE.txt",
     "static/media/do.wav": "/piano-react/static/media/do.18fd3f6f.wav",
     "static/media/fa.wav": "/piano-react/static/media/fa.a787534a.wav",
     "static/media/la.wav": "/piano-react/static/media/la.10af03f3.wav",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.085f8a8b.js",
-    "static/js/2.be42e844.chunk.js",
-    "static/css/main.66bebcd4.chunk.css",
-    "static/js/main.ea198ff0.chunk.js"
+    "static/js/2.9315facd.chunk.js",
+    "static/css/main.60341018.chunk.css",
+    "static/js/main.36f310e8.chunk.js"
   ]
 }
