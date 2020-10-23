@@ -15,7 +15,7 @@ Hint:
 "J" -> SI 
 
 ## 🎨 Preview
-![Portfolio preview](piano-react.png)
+![Pianito](pianito-react.png)
 
 https://nicolezimerman.github.io/piano-react/
 
