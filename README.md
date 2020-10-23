@@ -1,16 +1,43 @@
-# Pianito con react  ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
 
-Primer proyecto con react. Realización de un piano recorriendo un objeto con las notas e imprimiendo los valores de cada una.
 
-## Pre requisitos
-1. Instalar o tener instalado Node.
-2. Actualizar npm.
 
-## 🚀 Instalación
-1. Clona este proyecto.
-2. Ve a la carpeta del proyecto
+# ✨ React piano  ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
+
+First react project. Each key is a component. 
+You can play it with keys! 
+Hint: 
+"A" -> DO |
+"S" -> RE |
+"D" -> MI |
+"F" -> FA |
+"G" -> SOL | 
+"H" -> LA |
+"J" -> SI 
+
+## 🎨 Preview
+![Portfolio preview](/piano-react.png)
+
+https://nicolezimerman.github.io/piano-react/
+
+
+## 💻 Technology
+
+Html - CSS - ReactJs
+
+## 🚀 Installation
+
+1. Install node
+1. Update npm
+
+## ⚙️ Usage
+
+1. Clone the project
+1. Go to project directory on the shell
 `cd workshop-react`
-3. Corre el ambiente local o modo desarrollador
+1. Run on the local host
 `npm start`
-Esto se abrira en [http://localhost:3000]
+This will be open on [http://localhost:3000]
 
+## 🔨 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
